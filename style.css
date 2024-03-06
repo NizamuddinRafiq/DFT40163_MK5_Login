@@ -15,10 +15,11 @@ header {
     text-align: center;
 }
 
-.login{
 
+
+.input-group{
+    width: 200px;
 }
-
 
 .pwdBaru {
     text-align: center;
