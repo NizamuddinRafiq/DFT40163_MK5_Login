@@ -9,12 +9,23 @@ body {
     
 }
 
+.sekutu{
+    margin-right: 60%;
+}
+
+
+
+
 header {
     background-color: blue;
     color: #fff;
-    padding: 20px;
+    padding: 1px;
     text-align: center;
     
+}
+
+.menu{
+    margin-left: 80%;
 }
 
 
