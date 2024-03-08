@@ -49,6 +49,15 @@ body {
     padding: 20px;
 }
 
+.input-group{
+    background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  
+}
+
 .logMasuk {
     background-color:#283584;
     color:#F2F1F6;
