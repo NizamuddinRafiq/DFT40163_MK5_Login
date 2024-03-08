@@ -44,8 +44,8 @@ body {
 .input-group,.lock{
     width: 300px;
     margin: 10px;
-    padding: 50px;
-    border: 20px gray;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 
