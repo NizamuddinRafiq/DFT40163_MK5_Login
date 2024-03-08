@@ -10,11 +10,23 @@
 </head>
 <body>
     <header>
-        <img src="persekutuanmalaysia.png" alt="" width="50" height="50" >
-        <img src="jpj.png" width="50" height="50">
-        <img src="MY.png" alt="" width="50" height="50">
-        <img src="FAQ.png" alt="" width="50" height="50">
-        <img src="menu.png" alt="" width="50" height="50">
+        <div class="row">
+            <div class="column">
+                <img src="persekutuanmalaysia.png" alt="" width="50" height="50">
+            </div>
+            <div class="column">
+                <img src="jpj.png" alt="" width="50" height="50">
+            </div>
+            <div class="column">
+                <img src="MY.png" alt="" width="50" height="50">
+            </div>
+            <div class="column">
+                <img src="FAQ.png" alt="" width="50" height="50">
+            </div>
+            <div class="menu">
+                <img src="menu.png" alt="" width="50" height="50">
+            </div>
+          </div>
         
 
         <h1>Log Masuk</h1>
@@ -24,7 +36,7 @@
         <br><br>
         <div class="input">
             <label for="idPengguna">ID Pengguna</label> <br>
-            <i class="fas fa-user icon"></i> 
+            <i class="fas fa-user-alt"></i> 
             <input type="text" name="idPengguna" id="idPengguna" placeholder="Sila masukkan ID pengguna anda " class="input-group"><br>
         </div>
 
@@ -32,8 +44,9 @@
         
         
         <label for="pwd">Kata Laluan</label> <br>
-        <i style='font-size:24px' class='fas'>&#xf023;</i> <input type="password" name="pwd" id="pwd"  placeholder="Sila masukkan kata laluan anda" class="input-group"> <i style='font-size:24px' class='fas'>&#xf070;</i> <br>
-    
+        <i style='font-size:24px' class='fas'>&#xf023;</i> 
+        <input type="password" name="pwd" id="pwd"  placeholder="Sila masukkan kata laluan anda" class="input-group"><i style='font-size:24px' class='fas'>&#xf070;</i><br>
+
         <br>
 
         <input type="submit" value="Log Masuk" class="logMasuk">

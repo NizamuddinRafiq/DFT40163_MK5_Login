@@ -1,75 +1,75 @@
+header {
+    background-color:#283584;
+    color:white;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.column {
+    float: left;
+    width: 5%;
+    padding: 5px;
+  }
+
+.menu{
+    float: right;
+    width: 5%;
+    padding: 5px;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#FAFAFA;
     margin: 0;
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100px;
     
 }
-
-.sekutu{
-    margin-right: 60%;
-}
-
-
-
-
-header {
-    background-color: blue;
-    color: #fff;
-    padding: 1px;
-    text-align: center;
-    
-}
-
-.menu{
-    margin-left: 80%;
-}
-
-
 
 .input-group{
     width: 200px;
     text-align: center;
-    margin-bottom: 20px;
-    border-radius: 5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.logMasuk {
+    background-color:#283584;
+    color:#F2F1F6;
+    border-radius: 30px;
+    width: 20%;
     padding: 15px;
-    
-    
+    font-size: large;
 }
 
 .pwdBaru {
     text-align: center;
     margin-bottom: 20px;
-    color: purple;
+    color:#3B1A96;
     border-radius: 30px;
-    
-    
-    
-}
-
-
-.logMasuk {
-    background-color: blue;
-    color: white;
-    border-radius: 30px;
-    width: 10%;
-    padding: 10px;
 }
 
 .emelBaru {
     margin-bottom: 15px;
-    color: red;
+    color:#961421;
 }
 
 .akaunBaru {
-    background-color: green;
-    color: white;
+    background-color:#27C884;
+    color:#F2F1F6;
     border-radius: 30px;
-    width: 10%;
-    padding: 10px;
-
+    width: 20%;
+    padding: 15px;
+    font-size: large;
 }
 
