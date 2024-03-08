@@ -6,6 +6,11 @@ header {
     font-size: larger;
 }
 
+.logo{
+    width: 50;
+    height: 50;
+}
+
 .row::after {
     content: "";
     clear: both;
