@@ -1,4 +1,4 @@
-header {
+.header {
     background-color:#283584;
     color:white;
     padding: 10px;
@@ -30,7 +30,7 @@ header {
     padding: 5px;
 }
 
-body {
+.body {
     font-family: Arial, Helvetica, sans-serif;
     background-color:#FAFAFA;
     margin: 0;
